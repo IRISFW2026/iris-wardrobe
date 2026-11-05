@@ -9,3 +9,5 @@
 
 /* Custom tag creation shares the same row and dimensions as every tag. */
 .taggroup{margin-bottom:20px}.tagchoices{align-items:center;gap:6px}.tagchoices button{font-size:11px;line-height:18px;min-height:32px;padding:6px 8px}.tagchoices .tag-add{margin:0;border-style:dashed;background:transparent;color:var(--muted);white-space:nowrap}.tagchoices .tag-add:hover{background:#f0f4ec;color:var(--green)}.tag-more{margin:10px 0 0}.tag-more summary{font-size:12px;font-weight:400;line-height:1.6}
+
+.piece-section{margin-top:14px}.piece-section-title{display:flex;align-items:center;gap:8px;margin-bottom:7px}.piece-section small{font-size:11px;color:var(--muted)}.piece-section>small{display:block;margin-bottom:7px}.legacy-piece-tag{border:0;padding:2px 6px;font-size:10px;line-height:16px;background:#f1f4ed;color:#657560}.personal-piece-section{border-top:1px solid var(--line);padding-top:14px;margin-top:16px}
