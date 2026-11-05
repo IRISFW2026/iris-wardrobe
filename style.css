@@ -6,3 +6,6 @@
 
 /* Keep controls and outfit cards in separate rows, independent of helper text. */
 .sectionhead{flex-wrap:wrap;row-gap:14px}.sectionhead>div:first-child{flex-shrink:0}.actions{flex-wrap:wrap;align-items:center}.filterbar{align-items:stretch;row-gap:10px}.grid{margin-top:24px}@media(max-width:700px){.actions{width:100%;justify-content:flex-start}.grid{margin-top:20px}}
+
+/* Custom tag creation shares the same row and dimensions as every tag. */
+.taggroup{margin-bottom:20px}.tagchoices{align-items:center;gap:6px}.tagchoices button{font-size:11px;line-height:18px;min-height:32px;padding:6px 8px}.tagchoices .tag-add{margin:0;border-style:dashed;background:transparent;color:var(--muted);white-space:nowrap}.tagchoices .tag-add:hover{background:#f0f4ec;color:var(--green)}.tag-more{margin:10px 0 0}.tag-more summary{font-size:12px;font-weight:400;line-height:1.6}
